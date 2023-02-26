@@ -1,0 +1,48 @@
+/* @IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+.header {
+    margin-top: 30px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+   text-align: center;
+}
+.header__title {
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+.section__calc {
+    margin-top: 30px;
+}
+.calc {
+    padding: 15px; /* паддинги бокса*/
+    border: 2px dotted black;
+    height: 500px;
+}
+.calc__box {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.calc__side {
+    display: flex;
+   width: 100%;
+    justify-content: center;
+}
+.calc__switcher {
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+    width: 90%;
+    height: 10%;
+
+    align-items: center;
+}
