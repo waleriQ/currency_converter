@@ -15,7 +15,7 @@ for (let i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
-
+//function green buttons active right side
 let switcher__two = document.getElementById("switcher__two");
 let btns__two = switcher__two.getElementsByClassName("calc__switcher__item");
 for (let i = 0; i < btns.length; i++) {
@@ -25,3 +25,15 @@ for (let i = 0; i < btns.length; i++) {
         this.className += " active__two";
     });
 }
+
+//function change picture on last child
+// let arrow = document.querySelector('.arrow');
+// arrow.addEventListener('click',  () => {
+// if (arrow.style.backgroundImage == 'url(./assets/img/angle-arrow-down.svg)') {
+//     arrow.style.backgroundImage = 'url(./assets/img/angle-arrow-up-white.svg )'
+// }
+// else {
+//
+// }
+// })
+
